@@ -1,12 +1,13 @@
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+import EscolhaFilme from "./pages/escolhaFilme";
 
-export default function Routes() {
+export default function routes() {
     return(
         <BrowserRouter>
-            <Switch>
-                <Route path="" exact={true} component={''}/>
-            </Switch>
+            <Routes>
+                <Route path="/" element={<EscolhaFilme />} />
+            </Routes>    
         </BrowserRouter>
     )
 }
