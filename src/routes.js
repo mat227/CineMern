@@ -1,12 +1,12 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import EscolhaFilme from "./pages/escolhaFilme";
+import ChoiceMovie from "./pages/choiceMovie";
 
 export default function routes() {
     return(
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<EscolhaFilme />} />
+                <Route path="/" element={<ChoiceMovie />} />
             </Routes>    
         </BrowserRouter>
     )
