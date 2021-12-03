@@ -3,12 +3,12 @@ import { Container } from "./styled.js";
 export default function BoxTicket(props) {
     return(
         <Container>
-            <img className="img-movie" src={props.info.img} alt="movie"/>
             <div className="align-text">
-                <div className="title-movie"> {props.info.name} </div>
+                <div className="seat-info"> {props.info.armchair} {props.info.halforwhole} #{props.info.randomNumber}</div>
                 <div>
-                    <div className="desc"> {props.info.desc} </div>
-                    <div className="desc"> Classificação: +{props.info.classification} </div>
+                    <div className="date"> {props.info.date}  {props.info.buyTime} </div>
+                    <div className="name"> {props.info.name} </div>
+                    <div className="dub-sub"> {props.info.dubSub} Sala{props.info.roomnumber} {props.info.timer}  </div>
                 </div>
             </div>
         </Container>
