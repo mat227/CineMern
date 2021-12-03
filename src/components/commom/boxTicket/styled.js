@@ -4,48 +4,44 @@ const Container = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
-
-    background-image: "/assets/images/ticket.jpg";
-    
-    min-width: 22em;
-    padding: .3em;
-    margin: .5em;
+    background-image: url('/assets/images/ticket.svg');
+    background-size: 30em;
+    background-position: center center;
+   
+    width: 25em;
+    padding-left:7.8em;
 
     border-radius: 10px 10px 0px 0px;
     cursor: pointer;
 
-    .img-movie{
-        height: 10em;
-        width: 8em;
-
-        border-radius: 10px 0px 0px 0px;
-    }
+   
 
     .align-text{
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        height: 7em;
+        align-items: center;
     }
 
-    .title-movie{
+    .seat-info{
         font-family: share-tech;
         font-size: 1.2em;
-        color: #FFCA76;
-
+        color: #960404;
         line-height: 1.3em;
-
-        width: 11em;
-        margin-left: .5em;
     }
 
-    .desc{
+    .name{
         font-family: share-tech;
-        font-size: 1em;
-        color: white;
+        font-size: 2em;
+        line-height: 1.3em;
+        margin-bottom: -.5em;
+    }
 
-        width: 11em;
-        margin: .3em 0em 0em .5em;
+    .dub-sub{
+        font-family: share-tech;
+        font-size: 1.5em;
+        color: #960404;
+        line-height: 1.3em;
+        margin-top: 1.3em;
     }
 
 `
