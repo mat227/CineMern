@@ -4,9 +4,14 @@ import styled from "styled-components";
 const StyledLittleBox = styled.div `
 
     background-color: #AA0A0A;
-    border-radius: 2%;
+    border-radius: 4%;
     color: #FFFFFF;
-    padding: 1.2em;
+    width: 161px;
+    height: 154px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     .language {
         font-family: share-tech;
