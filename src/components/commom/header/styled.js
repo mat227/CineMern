@@ -7,7 +7,7 @@ const Container = styled.div`
 
     background-color: transparent;
     width: 100%;
-    padding: 2em 2em;
+    padding: 2em 5em;
 
     .align-logo{
         display: flex;

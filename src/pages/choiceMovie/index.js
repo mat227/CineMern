@@ -67,7 +67,7 @@ export default function ChoiceMovie() {
     return(
         <Background>
             <Container>
-                <Header />
+                <Header headerText="Selecione o filme que deseja assistir"/>
                 <div className="content">
                     {movies.map((item) =>
                          <BoxMovie info={item}/>
