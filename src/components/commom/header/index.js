@@ -1,6 +1,6 @@
 import { Container } from "./styled.js";
 
-export default function header(props) {
+export default function Header(props) {
     return(
         <Container>
             <div className="align-logo">
