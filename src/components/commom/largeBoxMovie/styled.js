@@ -18,7 +18,7 @@ const Box = styled.div`
 
     img {
         width: 96%;
-        height: 340px;
+        height: 400px;
 
         border-radius: 16px 16px 0px 0px;
     }

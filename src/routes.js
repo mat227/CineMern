@@ -5,6 +5,7 @@ import YourTickets from "./pages/yourTicket";
 import HomeMovie from "./pages/homeMovie";
 import Home from "./pages/home";
 
+import SelectTime from "./pages/selectTime";
 
 export default function routes() {
     return(
@@ -14,6 +15,7 @@ export default function routes() {
                 <Route path="/yourtickets" element={<YourTickets />} />
                 <Route path="/homeMovie" element={<HomeMovie />} />
                 <Route path="/Home" element={<Home />} />
+                <Route path="/selectTime" element={<SelectTime /> } />
             </Routes>    
         </BrowserRouter>
     )
