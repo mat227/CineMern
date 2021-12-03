@@ -5,20 +5,24 @@ const Container = styled.div`
     
 
    section{
-
-        
         display: flex;
         flex-direction: row;
 
 
         justify-content: space-between;
 
-        width: 100%;
+      
+        width: 1430px;
         height: auto;
-        
+
         padding: 1em 10em 0em 10em;
 
+    }
 
+    .middle-bar {
+        border: 1px solid #5A1010;
+        height: 85%;
+        margin-top: 1.9em;
     }
 
     .infoBox {

@@ -23,13 +23,14 @@ function HomeMovie() {
                             <Input accent="A4" />
                             <Input accent="A5"/>
                         </div>
+                        <div className="middle-bar"></div>
                         <div className="requests">
                             <div className="tittle">Pedido</div>
                             <div className="typeIngress">
                                 <div>Ingressos Meia:  &nbsp;  &nbsp;  01</div>
                                 <div> Ingressos Inteira:  &nbsp;  &nbsp;    04</div>
                             </div>
-
+                           
                             <div className="pre-total">
                                 <div className="total"> Total: R$ 100,00 </div>
                             </div>
