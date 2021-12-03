@@ -3,6 +3,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ChoiceMovie from "./pages/choiceMovie";
 import YourTickets from "./pages/yourTicket";
 import HomeMovie from "./pages/homeMovie";
+import Home from "./pages/home";
+
 
 export default function routes() {
     return(
@@ -11,6 +13,7 @@ export default function routes() {
                 <Route path="/" element={<ChoiceMovie />} />
                 <Route path="/yourtickets" element={<YourTickets />} />
                 <Route path="/homeMovie" element={<HomeMovie />} />
+                <Route path="/Home" element={<Home />} />
             </Routes>    
         </BrowserRouter>
     )
