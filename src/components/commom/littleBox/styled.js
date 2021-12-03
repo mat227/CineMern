@@ -13,6 +13,11 @@ const StyledLittleBox = styled.div `
     justify-content: center;
     align-items: center;
 
+    &:hover {
+        opacity: 80%;
+        cursor: pointer;
+    }
+
     .language {
         font-family: share-tech;
         font-size: 1.7em;
