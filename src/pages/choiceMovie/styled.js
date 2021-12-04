@@ -18,6 +18,28 @@ const Container = styled.div`
 
         overflow-y: scroll;
     }
+
+    @media(max-width: 1280px) {
+        .content{
+            height: 46em;
+            width: 90%;
+        }
+    }
+
+    @media(min-width: 1440px) {
+        .content{
+            height: 35em;
+            width: 80%;
+        }
+    }
+
+    @media(min-width: 1920px) {
+        .content{
+            height: 46em;
+            width: 80%;
+        }
+    }
+
 `
 
 export { Container }

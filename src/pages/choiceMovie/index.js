@@ -1,14 +1,62 @@
+import { useEffect, useState } from 'react'
 import { Container } from './styled.js'
 import { Background } from '../../components/styled/background.js'
 import Header from '../../components/commom/header/index.js'
 import BoxMovie from '../../components/commom/boxMovie/index.js'
-import { useEffect, useState } from 'react'
 
 export default function ChoiceMovie() {
     const [movies, setMovies] = useState([])
 
     const simulacao = () => {
         setMovies([
+            {
+                img: "/assets/images/matrix.jpg",
+                name: "Matrix",
+                desc: "Legendado e Dublado",
+                classification: "14"
+            },
+            {
+                img: "/assets/images/matrix.jpg",
+                name: "Matrix",
+                desc: "Legendado e Dublado",
+                classification: "14"
+            },
+            {
+                img: "/assets/images/matrix.jpg",
+                name: "Matrix",
+                desc: "Legendado e Dublado",
+                classification: "14"
+            },
+            {
+                img: "/assets/images/matrix.jpg",
+                name: "Matrix",
+                desc: "Legendado e Dublado",
+                classification: "14"
+            },
+            {
+                img: "/assets/images/matrix.jpg",
+                name: "Matrix",
+                desc: "Legendado e Dublado",
+                classification: "14"
+            },
+            {
+                img: "/assets/images/matrix.jpg",
+                name: "Matrix",
+                desc: "Legendado e Dublado",
+                classification: "14"
+            },
+            {
+                img: "/assets/images/matrix.jpg",
+                name: "Matrix",
+                desc: "Legendado e Dublado",
+                classification: "14"
+            },
+            {
+                img: "/assets/images/matrix.jpg",
+                name: "Matrix",
+                desc: "Legendado e Dublado",
+                classification: "14"
+            },
             {
                 img: "/assets/images/matrix.jpg",
                 name: "Matrix",
