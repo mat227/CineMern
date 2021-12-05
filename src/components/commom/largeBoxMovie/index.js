@@ -3,7 +3,7 @@ import {Box} from './styled'
 import {useState} from 'react'
 
 function LargeBox() {
-    const [propsSimulation, setPropsSimulation] = useState({
+    const [propsSimulation] = useState({
         img: "/assets/images/harry.jpg",
         filmTittle: "Harry Potter e a Ordem da Fênix",
         filmInfo: "Legendado e Dublado Classificação: +12"
@@ -20,4 +20,4 @@ function LargeBox() {
     )
 }
 
-export { LargeBox };
+export { LargeBox }; 
