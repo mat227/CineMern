@@ -1,4 +1,5 @@
 import { Container } from "./styled.js";
+import FloatButton from '../floatingButton/index'
 
 export default function BoxTicket(props) {
     return(
@@ -10,7 +11,10 @@ export default function BoxTicket(props) {
                     <div className="name"> {props.info.name} </div>
                     <div className="dub-sub"> {props.info.dubSub} Sala{props.info.roomnumber} {props.info.timer}  </div>
                 </div>
+
             </div>
+            <FloatButton text="Menu"/>
+
         </Container>
     )
 }
