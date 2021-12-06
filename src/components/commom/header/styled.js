@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const Container = styled.div`
     display: flex;
-    flex-direction: ${(props) => props.column  === "true" ? "column" : "row"};;
+    flex-direction: ${(props) => props.column  === "true" || props.column  === "true1" ? "column" : "row"};
     align-items: center;
 
     background-color: transparent;
@@ -18,7 +18,7 @@ const Container = styled.div`
         align-items: center;
 
         width: 20em;
-        margin-right: ${(props) => props.column  === "true" ? "0em" : "8em"};
+        margin-right: ${(props) => props.column  === "true" ? "0em" :  props.column  === "true1" ? "45em" : "8em"};
        
     }
 
