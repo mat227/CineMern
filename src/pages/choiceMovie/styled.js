@@ -9,7 +9,7 @@ const Container = styled.div`
 
 
     .content{
-        display: flex;
+        display: flex;;
         flex-direction: row;
         flex-wrap: wrap;
 
