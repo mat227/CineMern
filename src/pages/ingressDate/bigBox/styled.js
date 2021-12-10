@@ -1,19 +1,18 @@
 import styled from "styled-components";
 
 
-const StyledLittleBox = styled.div `
+const StyledBigBox = styled.div `
 
     background-color: #AA0A0A;
     border-radius: 4%;
     color: #FFFFFF;
-    width: 141px;
-    height: 134px;
+    width: 281px;
+    height: 274px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0.5em;
-
+    margin: 1em;
     &:hover {
         opacity: 80%;
         cursor: pointer;
@@ -21,14 +20,15 @@ const StyledLittleBox = styled.div `
 
     .language {
         font-family: share-tech;
-        font-size: 1.7em;
+        font-size: 3.5em;
+        margin: 0.25em;
     }
 
     .schedule {
-        font-size: 2.4em;
+        font-size: 4em;
         font-family: share-tech;
     }
 `
 
 
-export { StyledLittleBox }
+export { StyledBigBox }

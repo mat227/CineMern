@@ -4,7 +4,7 @@ const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 50vh;
+    height: 100%;
    
 
 
@@ -13,11 +13,15 @@ const Container = styled.div`
         flex-direction: row;
         flex-wrap: wrap;
 
-        height: 28em;
-        width: 85%;
+        height: 100%;
+        width: 90%;
 
         overflow-y: scroll;
     }
+
+   .text-header{
+       font-size: 2em;
+   }
 `
 
 export { Container }

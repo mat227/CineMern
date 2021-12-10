@@ -31,6 +31,105 @@ export default function ChoiceMovie() {
                 roomnumber: "08",
                 timer:"13:00"
             },
+            {
+                armchair: "A1",
+                halforwhole:"Meia",
+                randomNumber:"859204",
+                date:"12/10/2021",
+                buyTime:"17:05",
+                name: "Harry Poter",
+                dubSub: "Dublado",
+                roomnumber: "08",
+                timer:"13:00"
+            },
+            {
+                armchair: "A1",
+                halforwhole:"Meia",
+                randomNumber:"859204",
+                date:"12/10/2021",
+                buyTime:"17:05",
+                name: "Harry Poter",
+                dubSub: "Dublado",
+                roomnumber: "08",
+                timer:"13:00"
+            },
+            {
+                armchair: "A1",
+                halforwhole:"Meia",
+                randomNumber:"859204",
+                date:"12/10/2021",
+                buyTime:"17:05",
+                name: "Harry Poter",
+                dubSub: "Dublado",
+                roomnumber: "08",
+                timer:"13:00"
+            },
+            {
+                armchair: "A1",
+                halforwhole:"Meia",
+                randomNumber:"859204",
+                date:"12/10/2021",
+                buyTime:"17:05",
+                name: "Harry Poter",
+                dubSub: "Dublado",
+                roomnumber: "08",
+                timer:"13:00"
+            },
+            {
+                armchair: "A1",
+                halforwhole:"Meia",
+                randomNumber:"859204",
+                date:"12/10/2021",
+                buyTime:"17:05",
+                name: "Harry Poter",
+                dubSub: "Dublado",
+                roomnumber: "08",
+                timer:"13:00"
+            },
+            {
+                armchair: "A1",
+                halforwhole:"Meia",
+                randomNumber:"859204",
+                date:"12/10/2021",
+                buyTime:"17:05",
+                name: "Harry Poter",
+                dubSub: "Dublado",
+                roomnumber: "08",
+                timer:"13:00"
+            },
+            {
+                armchair: "A1",
+                halforwhole:"Meia",
+                randomNumber:"859204",
+                date:"12/10/2021",
+                buyTime:"17:05",
+                name: "Harry Poter",
+                dubSub: "Dublado",
+                roomnumber: "08",
+                timer:"13:00"
+            },
+            {
+                armchair: "A1",
+                halforwhole:"Meia",
+                randomNumber:"859204",
+                date:"12/10/2021",
+                buyTime:"17:05",
+                name: "Harry Poter",
+                dubSub: "Dublado",
+                roomnumber: "08",
+                timer:"13:00"
+            },
+            {
+                armchair: "A1",
+                halforwhole:"Meia",
+                randomNumber:"859204",
+                date:"12/10/2021",
+                buyTime:"17:05",
+                name: "Harry Poter",
+                dubSub: "Dublado",
+                roomnumber: "08",
+                timer:"13:00"
+            },
           
         ])
     }
@@ -42,13 +141,16 @@ export default function ChoiceMovie() {
     return(
         <Background>
             <Container>
-                <Header />
+            <Header vertical="true" verticalDate="true" headerText="Parabéns! Sua compra foi realizada com sucesso.Agora é só aproveitar o filme :)" />
                 <div className="content">
                     {ticket.map((item) =>
                          <BoxTicket info={item}/>
                     )}    
+
                 </div>    
+
             </Container>
         </Background>
+
     )
 }
